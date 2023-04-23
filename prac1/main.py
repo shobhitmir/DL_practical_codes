@@ -16,7 +16,7 @@ def predict(X, y, weights, threshold):
 # 1) NOT GATE
 X = np.array([[0], [1]])
 y = np.array([1, 0])
-w = np.array([-1]).reshape(1,1)
+w = np.array([-1]).reshape((1,1))
 T = 0
 print('---- NOT GATE ----')
 predict(X,y,w,T)
